@@ -1,0 +1,53 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.645
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "samples", "samples", "{082C43D9-6CCA-4C43-9965-3ABA536F3B30}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{F31CED69-BCFA-49CB-B830-759AD0507A03}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{80C5A8DF-5288-4341-B66B-6C359314375D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OnenetUT", "OnenetUT\OnenetUT.csproj", "{2C33F0EB-E0E5-4BC6-B059-92BA1A4A20A7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "netfx45Test", "netfx45Test\netfx45Test.csproj", "{ABDCE8FD-B091-45E4-812F-CD51ECCFCA67}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Legend.Onenet", "Legend.Onenet\Legend.Onenet.csproj", "{07CDB8CE-FCB1-4DA6-B120-1491174578A7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "nuget", "nuget", "{4151320B-5521-4561-BA7E-B85F27A8C3E0}"
+	ProjectSection(SolutionItems) = preProject
+		..\Legend.Wechat\nuget\nuget.exe = ..\Legend.Wechat\nuget\nuget.exe
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2C33F0EB-E0E5-4BC6-B059-92BA1A4A20A7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2C33F0EB-E0E5-4BC6-B059-92BA1A4A20A7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2C33F0EB-E0E5-4BC6-B059-92BA1A4A20A7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2C33F0EB-E0E5-4BC6-B059-92BA1A4A20A7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ABDCE8FD-B091-45E4-812F-CD51ECCFCA67}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ABDCE8FD-B091-45E4-812F-CD51ECCFCA67}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ABDCE8FD-B091-45E4-812F-CD51ECCFCA67}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ABDCE8FD-B091-45E4-812F-CD51ECCFCA67}.Release|Any CPU.Build.0 = Release|Any CPU
+		{07CDB8CE-FCB1-4DA6-B120-1491174578A7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{07CDB8CE-FCB1-4DA6-B120-1491174578A7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{07CDB8CE-FCB1-4DA6-B120-1491174578A7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{07CDB8CE-FCB1-4DA6-B120-1491174578A7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{2C33F0EB-E0E5-4BC6-B059-92BA1A4A20A7} = {80C5A8DF-5288-4341-B66B-6C359314375D}
+		{ABDCE8FD-B091-45E4-812F-CD51ECCFCA67} = {082C43D9-6CCA-4C43-9965-3ABA536F3B30}
+		{07CDB8CE-FCB1-4DA6-B120-1491174578A7} = {F31CED69-BCFA-49CB-B830-759AD0507A03}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {94BBB485-C4BA-4369-9AAC-B015BB83B007}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>Legend.Onenet</id>
+    <version>0.0.1</version>
+    <authors>Legend</authors>
+    <owners>Legend</owners>
+    <licenseUrl></licenseUrl>
+    <projectUrl>http://PROJECT_URL_HERE_OR_DELETE_THIS_LINE</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>移动Onenet平台SDK，netstandard2.0;net45</description>
+    <copyright>Copyright 2019</copyright>
+    <tags>OneNet SDK</tags>
+    <dependencies>
+      <dependency id="Microsoft.Extensions.DependencyInjection" version="2.2.0" />
+      <dependency id="Microsoft.Extensions.DependencyInjection.Abstractions" version="2.2.0" />
+      <dependency id="Microsoft.Extensions.Http" version="2.2.1" />
+      <dependency id="Newtonsoft.Json" version="11.0.2" />
+    </dependencies>
+  </metadata>
+</package>
